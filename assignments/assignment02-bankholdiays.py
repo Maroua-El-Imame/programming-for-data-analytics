@@ -7,15 +7,10 @@
 # Author: Maroua EL imame 
 
 # Part 1 : 
-# Import requests module library, it is used to send HTTP requests and interact with web resources. 
 import requests
-# The URL we want to send the request to, in other words, we retrieve the data needed from the url provided
 url =" https://www.gov.uk/bank-holidays.json"
-# Sent request to the website and get its data
 response = requests.get(url)
-# convert the website's json data to dictionary in Python
 data = response.json()
-# only get bank holidays specific to Northern Ireland
 print("\n")
 print("=== ALL Northern Ireland Bank Holidays ===")
 print("\n")
@@ -38,6 +33,7 @@ for event in data['northern-ireland']['events']:
 # Chat GPT & Deep seek : AI provided conceptual explanations of SET operations, it was used as a learning aid to understand:
 # Set operations (union, difference) in Python
 # Set comprehension syntax
+
 
 print("\n")
 print("=== UNIQUE Northern Ireland Bank Holidays ")
