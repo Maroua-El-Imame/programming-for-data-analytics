@@ -21,8 +21,7 @@ Submission deadline : 08/12/2025
 ## Assignments Overview :  
 The assignments follow the order presented in the module’s lectures.
 
-* Northern bank holdays  
-<n/>  
+* Northern bank holdays   
 
 * Email domains  
 * Population  
