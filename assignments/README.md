@@ -22,7 +22,6 @@ Submission deadline : 08/12/2025
 The assignments follow the order presented in the module’s lectures.
 
 * Northern bank holdays   
-
 * Email domains  
 * Population  
 * Weather
