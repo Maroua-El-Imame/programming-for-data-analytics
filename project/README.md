@@ -56,7 +56,7 @@ Each step will be addressed in the notebook, with outputs, analysis and commenta
     Gather historical windspeed data from galway and optionnaly from other selected stations in west ireland for potential comparative purposes.  
 - [✔️] **Data Preparation**  
     Handle datasets inconsistencies
-- [ ] **Exploratory Data Analysis**  
+- [✔️] **Exploratory Data Analysis**  
     Visualize wind speed trends and patterns  
 - [ ] **Modeling and Evaluation**  
     Estimate potential turbine power, analyze trends and predict future wind patterns.  
