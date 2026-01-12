@@ -75,10 +75,10 @@ The Irish Meteorological Service ***[Met Éireann](https://www.met.ie/climate/av
 <br/>
 
 
-I followed a standard data science workflow from raw data to actionable insights with a focus on wind energy releavce at each step:
+I followed a standard data science workflow from raw data to actionable insights with a focus on wind energy relevance at each step:
 
 1- Problem definition and listing of research questions  
-I started with real world qurstions : Is Mace Head windy enought > Are winds changing over time  
+I started with real world qurstions : Is Mace Head windy enough ? Are winds changing over time?   
 
 2-Data collection: 22 years of hourly windspeed records  
 I used Met Éireann's historical dataset (2003-2025), giving enough data for both seasonal patterns and long term trend analysis.   
@@ -87,31 +87,28 @@ I used Met Éireann's historical dataset (2003-2025), giving enough data for bot
 I handled missing values, converted units ( knots into m/s for energy calculations) and created daily/monthly/yearly and seasonal views for different analysis scales.    
 
 4-Exploratory analysis  
-Applied rolling averages, seasonal analysis, heatmpas etc. to answer when and how wind varies at Mace head.  
+I pplied rolling averages, seasonal analysis, heatmpas etc. to answer when and how wind varies at Mace Head.  
 
 5-Modeling and Evaluation  
-I worked on trend analysis with linear regression to quantify wind fuctuations, I also used ARIMA forecasting for shoirt term win predictions, and Turbine treshold mapping to assess opearional feasibility.   
+I worked on trend analysis with linear regression to quantify wind fuctuations, I also used ARIMA forecasting for short term windspeed predictions, and Turbine treshold mapping to assess opearional feasibility.   
 
 6-Documentation    
-I used clear visualizations ( wind vs temperature plots, threshold scatter plots, Heatmaps, Barplot, Diagnostics ..) and added clear, detailed  comments in section of code where they're relevant and also markdwon explanations to make the finding easy to undert=stand to both technical and non technical readers.  
+I used clear visualizations ( wind vs temperature Plots, threshold Scatter plots, Heatmaps, Barplot, Diagnostics ..).  added clear, detailed  comments in section of code where they're relevant and also markdwon explanations to make the finding easy to understand to both technical and non technical readers.  
 
 ## Conclusion 
 <br/>
 
-This project has successfully transformed 22 years of hourly wind observations from Mace Head station into a comprehensive assessment of wind energy potential.  
-Data cleaning, multi scale windspeed analysis and practical energy calculations have answered the core of research qurstions.  
+This project has successfully transformed 22 years of hourly wind observations from Mace Head station into a comprehensive assessment of wind energy potential.   
+It shows how accessible meteorological data, when analyzed with a clear question driven workflow, can bridge the gap between historical weather records and informed decision for a sustainable energy future.  
 
-Seasonal and daily patterns are clearly established with winter winds consistently strong in Winter and the calmest in Summer, followinf predictable annual cycles.  
-Wind turbone suitability is confirmed with approximately 80 % of hourly wind speeds falling within operational ranges with rare extreme events.  
-Lond term trends reveal gradual but stastically decline in wind speeds of approximately 0.24 knots per decade.  
+Data cleaning, multi scale windspeed analysis and practical energy calculations have answered the core of research questions.  
 
-Key insights from this study demonstrate that **Mace Head** possesses a reliable and measurable wind resources.  
-The metodology developed from exploratory historic visualization and model prediction provide 
-Consistent seasonal winds with winter peaks  
-High turbine operational  
+Seasonal and daily patterns are clearly established with winter winds consistently strong in Winter and the calmest in Summer, following predictable annual cycles.  
+Wind turbine suitability is confirmed with approximately 80 % of hourly wind speeds falling within operational ranges with rare extreme events.  
+Long term trends reveal gradual but stastically decline in wind speeds of approximately 0.24 knots per decade.  
 
-This project has successfully transformed 22 years of hourly wind observations from Mace Head into a comprehensive assessment of wind energy potential.
-It also illustrayes how accessible meteorological data, when analyzed with a clear question driven workflow, can bridge the gap between historical weather records and informed decision for a sustainable energy future.  
+
+
 
 
 
@@ -182,19 +179,6 @@ saved using the cd command.
 -Lastly, steps to [clone repository using command line](https://docs.github.com/en/repositoriescreating-and-managing-repositories/cloning-a-repository)  
     Clone allows to copy the repository from GitHub to the local machine  
     Changes can be pushed to the remote repository on GitHub and/or pulled from Github into the local machine.  
-
-
-
-| Python in repository - File browsing & viewing     |
-|----------|
-
-
--Access the repository: You're already viewing the main [repository](https://github.com/Maroua-El-Imame/programming-for-data-analytics/blob/main/project/README.md) 
-page.  
--View python file types: .py or .ipynb .  
--Navigate folder using the file explorer on the left. 
--Click on ipynb files to see their content, code and code output.  
--Notebook ouputs display automatically if no installation is planned.     
 
 ## Contact  
 <br/>
